@@ -1,9 +1,3 @@
-import "../css/style.css"
-
-let a =1
-let b =2
-
-
-
-console.log(a+b)
-console.log("hi")
+import "../css/style.css";
+import { Keyboard } from "./keyboard";
+new Keyboard();
